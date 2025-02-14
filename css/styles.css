@@ -1,0 +1,52 @@
+
+:root{
+    --color-background-dark: #101010;
+    --color-background-light: #1d1f20;
+    --color-background-container-primary:#014FD5;
+    --color-background-container-secondary:#CFDCE9;
+    --color-primary: #006FF8;
+    --color-secondary:#CFB233;
+    --color-text-primary:#11141B;
+    --color-text-secondary:#FFF;
+    --color-border-animation-primary:#CFB233;
+    --color-border-animation-secondary:#FFF;
+    --color-quaternary: #96979e;
+}
+ 
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+  background: var(--color-background-container-primary);
+  hyphens: auto;
+  overflow-x: hidden;
+}
+
+
+/*! <--------- top Button --------->*/
+
+.top-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-secondary);
+  border-radius: 9px;
+  font-weight: 900;
+  width: 43px;
+  height: 43px;
+  color: var(--color-background-dark);
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  transform: scale(0);
+  z-index: 1;
+  transition: all 0.3s ease-in-out;
+}
+
+.top-button.active {
+  transform: scale(1);
+}
