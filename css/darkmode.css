@@ -1,0 +1,44 @@
+
+
+
+body.dark{
+    background-color: var(--color-background-dark);
+}
+body.dark header{
+    background-color: var(--color-background-dark);
+}
+body.dark nav{
+    background-color: var(--color-background-dark);
+}
+body.dark .hero__title{
+    color: var(--color-text-secondary);
+}
+body.dark .skills{
+    background-color: var(--color-background-dark);
+}
+
+body.dark .study{
+    background-color: var(--color-background-dark);
+}
+body.dark .contact__info strong {
+    color: var(--color-text-secondary);
+  }
+body.dark .about{
+    background-color: var(--color-background-light);
+}
+
+body.dark .projects{
+    background-color: var(--color-background-light);
+}
+
+body.dark .contact{
+    background-color: var(--color-background-light);
+}
+
+body.dark .contact__item{
+     background-color: var(--color-background-dark);
+ }
+ 
+body.dark .top-button{
+     background-color: var(--color-background-light);
+ }
